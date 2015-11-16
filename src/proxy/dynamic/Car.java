@@ -5,7 +5,7 @@ public class Car implements Vehicle{
 	@Override
 	public void move() {
 		try {
-			System.out.println("ÐÐÊ»ÖÐ...");
+			System.out.println("è¡Œé©¶ä¸­...");
 			Thread.sleep(7000);
 		} catch (InterruptedException e) {
 			e.printStackTrace();

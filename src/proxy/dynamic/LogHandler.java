@@ -15,9 +15,9 @@ public class LogHandler implements InvocationHandler{
 	@Override
 	public Object invoke(Object proxy, Method method, Object[] args)
 			throws Throwable {
-		System.out.println("Æô¶¯Æû³µ");
+		System.out.println("å¼€å§‹å‡ºå‘ï¼Œå¯åŠ¨æ±½è½¦");
 		method.invoke(target);
-		System.out.println("µ½´ïÄ¿µÄµØ");
+		System.out.println("åˆ°è¾¾ç›®çš„åœ°");
 		return null;
 	}
 
