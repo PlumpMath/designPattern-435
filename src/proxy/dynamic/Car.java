@@ -10,7 +10,6 @@ public class Car implements Vehicle{
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
-		
 	}
 
 }

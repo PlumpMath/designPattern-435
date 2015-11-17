@@ -16,6 +16,7 @@ public class LogHandler implements InvocationHandler{
 	public Object invoke(Object proxy, Method method, Object[] args)
 			throws Throwable {
 		System.out.println("启动汽车，出发");
+
 		method.invoke(target);
 		System.out.println("到达目的地");
 		return null;
