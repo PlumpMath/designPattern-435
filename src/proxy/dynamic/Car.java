@@ -1,6 +1,7 @@
 package proxy.dynamic;
 
 public class Car implements Vehicle{
+	private int height;
 
 	@Override
 	public void move() {
