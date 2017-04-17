@@ -6,7 +6,7 @@ public class CEO extends PriceHandler{
 		if (discount <= 0.55) {
 			System.out.println(this.getClass().getName() + "批准了折扣");
 		} else {
-			System.out.println("CEO拒绝了折扣");
+			System.out.println("CEO 拒绝了 折扣");
 		}
 	}
 }
